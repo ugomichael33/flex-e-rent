@@ -1,6 +1,6 @@
 import React from 'react'
 import { dataDetails } from './data'
-
+import CarouselItem from './CarouselItem'
 
 
 function CarouselSlide() {

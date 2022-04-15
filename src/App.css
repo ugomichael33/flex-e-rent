@@ -403,8 +403,8 @@ input::placeholder {
     .hero-cover {
         width: 790px;
         height: 126.62px;
-        top: 880px;
-        left: 900px;
+        top: 780px;
+        left: 965px;
     }
 
     .main-head {
@@ -414,7 +414,7 @@ input::placeholder {
         width: 1200px;
         letter-spacing: -0.827586px;
         margin-top: 150px;
-        margin-left: 200px;
+        margin-left: 150px;
     }
 
     .minor {
@@ -423,7 +423,7 @@ input::placeholder {
         line-height: 42px;
         width: 1500px;
         margin-top: 170px;
-        margin-left: 200px;
+        margin-left: 150px;
     }
 
     .main-access {
@@ -452,9 +452,11 @@ input::placeholder {
         font-weight: 700;
         font-size: 24px;
         line-height: 29px;
-        /* identical to box height */
-        
         text-align: center;
+    }
+
+    #furnished-button {
+        margin-left: 150px;
     }
 
     .main-started {
@@ -477,7 +479,7 @@ input::placeholder {
         line-height: 27px;
         letter-spacing: -1px;
         margin-top: 150px;
-        margin-left: 200px;
+        margin-left: 150px;
     }
 
     #body-point {
@@ -514,13 +516,13 @@ input::placeholder {
 
     #inclusive-item {
         width: 750px;
-        margin-left: 0px;
+        margin-left: -50px;
         margin-top: 0px;
         font-size: 70px;
     }
 
     #inclusive-section {
-        margin-left: 0px;
+        margin-left: -50px;
         margin-top: 150px;
         width: 750px;
         font-weight: 400;
@@ -532,7 +534,7 @@ input::placeholder {
     }
 
     #inclusive-button {
-        margin-left: 0px;
+        margin-left: -50px;
         margin-top: 80px;
     }
 
@@ -548,7 +550,7 @@ input::placeholder {
     .inclusive-image {
         width: 700px;
         height: 900px; 
-        margin-left: 200px;
+        margin-left: 150px;
     }
 
     #button {
@@ -573,12 +575,12 @@ input::placeholder {
     .hero-cover2 {
         width: 230px;
         height: 100px;
-        left: 670px;
+        margin-left: 400px;
         top: 550px;
     }
 
     .section {
-        margin-left: 200px;
+        margin-left: 150px;
         margin-top: 100px;
         width: 1500px;
         font-weight: 400;
@@ -590,14 +592,15 @@ input::placeholder {
     }
 
     .reason {
-        margin-left: 200px;
+        margin-left: 150px;
         margin-top: 100px;
     }
 
     .grid-image {
         width: 60px;
         height: 60px;
-        margin-top: 200px;
+        margin-top: 100px;
+        margin-bottom: 30px;
     }
 
     .grid-title {
@@ -620,7 +623,7 @@ input::placeholder {
     }
 
     .started-grid {
-        margin-left: 200px;
+        margin-left: 150px;
         margin-top: 150px;
     }
 
@@ -630,7 +633,7 @@ input::placeholder {
         line-height: 64px;
         /* identical to box height, or 110% */
         padding-top: 150px;
-        margin-left: 200px;
+        margin-left: 150px;
         letter-spacing: -1px;
     }
 
@@ -669,7 +672,7 @@ input::placeholder {
     }
 
     .question {
-        margin-left: 200px;
+        margin-left: 150px;
         
     }
 
@@ -686,10 +689,11 @@ input::placeholder {
         font-size: 24px;
         line-height: 44px;
         width: 1500px;
+        
     }
 
     .access-input {
-        margin-left: 200px;
+        margin-left: 150px;
         margin-top: 40px;
         width: 628px;
         height: 100px;
@@ -715,6 +719,7 @@ input::placeholder {
     }
 
     .access-button {
+        position: flex;
         font-family: 'Sen';
         font-style: normal;
         font-weight: 800;
@@ -724,7 +729,7 @@ input::placeholder {
         width: 288px;
         height: 60px;
         text-align: center;
-        margin-left: 50%;
+        margin-left: 45%;
         margin-top: 80px;
     }
 
@@ -756,5 +761,14 @@ input::placeholder {
         margin-left: 200px;
         margin-top: 100px;
         color: #35383D;
+    }
+
+    #info-button {
+        margin-left: 1100px
+    }
+
+    .living-img {
+       width: 82px;
+       height: 78px;
     }
 }

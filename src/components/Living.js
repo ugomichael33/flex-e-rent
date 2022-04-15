@@ -1,4 +1,12 @@
 import React from 'react'
+import power from './assets/power.svg'
+import water from './assets/water.svg'
+import gas from './assets/gas.svg'
+import dues from './assets/dues.svg'
+import clean from './assets/clean.svg'
+import security from './assets/security.svg'
+
+import amenities from './assets/amenities.svg'
 
 function Living() {
   return (
@@ -10,16 +18,16 @@ function Living() {
                 your Spleet home is warm, comfortable, and ready for living.
                 </p>
                 <div className='grid grid-cols-2 gap-2 lg:ml-[200px] lg:mt-32 lg:grid-cols-4'>
-                    <div className='flex'> 
-                        <div></div>
+                    <div className='living flex items-center'> 
+                        <div><img className='living-img w-[20px] h-[30px] mt-10 ml-4 -mr-3' src={power} /></div>
                         <div>
                             <h5 className='services-head ml-5 mt-6'>Power Supply</h5>
                             <h6 className='services-title ml-5 w-30'>Minimum of 12 hours</h6>
                         </div>
                     </div>
                     <div>
-                        <div className='flex'>
-                            <div></div>
+                        <div className='living flex'>
+                            <div><img className='living-img w-[50px] h-[50px] mt-5 -mr-3' src={water} /></div>
                             <div>
                                 <h5 className='services-head mt-6' >Water</h5>
                                 <h6 className='services-title '>24/7 running water </h6>
@@ -27,26 +35,26 @@ function Living() {
                         </div>
                     </div>
                     <div>
-                        <div>
-                            <div></div>
+                        <div className='living flex'>
+                            <div><img className='living-img w-[60px] h-[60px] mt-4 ml-2' src={gas} /></div>
                             <div>
-                                <h5 className='services-head ml-5 mt-4' >Gas</h5>
-                                <h6 className='services-title ml-5 '>Included in subscription</h6>
+                                <h5 className='services-head ml-2 mt-4' >Gas</h5>
+                                <h6 className='services-title ml-2 '>Included in subscription</h6>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <div>
-                            <div></div>
+                        <div className='living flex items-center'>
+                            <div><img className='living-img w-[20px] h-[30px] mt-8 ml-2 ' src={dues} /></div>
                             <div>
-                                <h5 className='services-head mt-4' >Estate Dues</h5>
-                                <h6 className='services-title  w-30'>Included in subscription</h6>
+                                <h5 className='services-head mt-4 ml-4' >Estate Dues</h5>
+                                <h6 className='services-title  w-30 ml-4'>Included in subscription</h6>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <div className='flex'>
-                            <div></div>
+                        <div className='living flex items-center'>
+                            <div><img className='living-img w-[60px] h-[60px] mt-8 ml-4 -mr-3' src={clean} /></div>
                             <div>
                                 <h5 className='services-head ml-5 mt-4' >Cleaning</h5>
                                 <h6 className='services-title ml-5 '>Complete space cleaning</h6>
@@ -54,29 +62,29 @@ function Living() {
                         </div>
                     </div>
                     <div>
-                        <div className='flex'>
-                            <div></div>
+                        <div className='living flex items-center'>
+                            <div><img className='living-img mt-8 -ml-3' src={security} /></div>
                             <div>
-                                <h5 className='services-head mt-4' >Security services</h5>
-                                <h6 className='services-title'>Included in subscription</h6>
+                                <h5 className='services-head mt-4 -ml-4' >Security services</h5>
+                                <h6 className='services-title -ml-4'>Included in subscription</h6>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <div className='flex'>
-                            <div></div>
+                        <div className='living flex items-center'>
+                            <div><img className='living-img lg:mt-8' src={security} /></div>
                             <div>
-                                <h5 className='services-head ml-5 mt-4' >Waste Management</h5>
-                                <h6 className='services-title ml-5 '>Included in subscription</h6>
+                                <h5 className='services-head  mt-4' >Waste Management</h5>
+                                <h6 className='services-title '>Included in subscription</h6>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <div className='flex'>
-                            <div></div>
+                        <div className='living flex items-center mt-5'>
+                            <div><img className='living-img lg:mt-4' src={amenities} /></div>
                             <div>
-                                <h5 className='services-head mt-4' >Amenities</h5>
-                                <h6 className='services-title  '>Included in subscription</h6>
+                                <h5 className='services-head ml-2 lg:ml-5' >Amenities</h5>
+                                <h6 className='services-title ml-2 lg:ml-5'>Included in subscription</h6>
                             </div>
                         </div>
                     </div>
@@ -111,16 +119,16 @@ function Living() {
                         </p>
                     </div>
                     <div className='question'>
-                        <h6 className='question-title ml-5 mt-3'>What does my Membership Rent cover?</h6>
+                        <h6 className='question-title ml-5 mt-3 '>What does my Membership Rent cover?</h6>
                         <p className='question-content ml-5 mt-2'>To bring landlords, renters, and communities closer together by creating a collectively 
                             beneficial partnership.
                         </p>
                     </div>
                     <div className='question ml-5'>
-                        <h6 className='question-title mt-3'>What does my Membership Rent cover?</h6>
-                        <p className='question-content mt-2'>Your membership rent cover: </p>
+                        <h6 className='question-title mt-3 lg:ml-5'>What does my Membership Rent cover?</h6>
+                        <p className='question-content mt-2 lg:ml-5'>Your membership rent cover: </p>
                         <div className='question-content'>
-                            <ul>
+                            <ul className='lg:ml-5'>
                                 <li>Your living at the location.</li>
                                 <li>LAWMA and refuse disposal fees.</li>
                                 <li>Monthly water bill</li>
@@ -138,3 +146,10 @@ function Living() {
 }
 
 export default Living
+
+
+
+
+
+
+

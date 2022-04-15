@@ -1,5 +1,5 @@
 import React from 'react'
-import lady from './assets/lady.png'
+import lady from './assets/lady.png'  
 
 function Furnished() {
   return (
@@ -23,7 +23,7 @@ function Furnished() {
                     Live in a new city/neighborhood like never before: move between buildings & neighborhoods 
                     whenever you need a change
                   </p>
-                  <button className='main-button w-32 h-8 bg-[#000000] mt-2 ml-5 lg:ml-[200px] lg:mt-40'>Get Started</button>
+                  <button className='main-button w-32 h-8 bg-[#000000] mt-2 ml-5 lg:ml-[200px] lg:mt-40' id='furnished-button'>Get Started</button>
                 </div>
                 <div className='main-image w-80 mx-auto mt-5 lg:mt-16'>
                   <img id='main-img' src={lady} alt='' />

@@ -15,7 +15,7 @@ function Navbar() {
                     <img className='w-10 mx-auto lg:w-[70px] ' src={arc} alt='' />
                 </div>
             </div>
-            <div className='nav-right flex items-center justify-around lg:mr-96'>
+            <div className='nav-right flex items-center justify-around lg:w-[1200px]'>
                 <div className='nav-items'>
                     <ul className='flex justify-around lg:w-[700px]'>
                         <li>How it works</li>
