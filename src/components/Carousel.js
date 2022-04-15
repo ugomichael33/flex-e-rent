@@ -1,8 +1,5 @@
 import React from 'react'
 import { dataDetails } from './data'
-import CarouselItem from './CarouselItem'
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
 
 
 
