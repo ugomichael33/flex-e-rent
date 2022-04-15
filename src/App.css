@@ -725,7 +725,6 @@ input::placeholder {
         font-weight: 800;
         font-size: 18px;
         line-height: 22px;
-        /* identical to box height */
         width: 288px;
         height: 60px;
         text-align: center;
