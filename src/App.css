@@ -55,7 +55,7 @@ body {
     font-size: 8px;
     left: 5.94%;
     right: 8.29%;
-    top: 210px;
+    top: 230px;
     
     font-family: Sen;
     font-style: normal;
@@ -110,7 +110,7 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    /* or 178% */
+   
     
     
     color: #7C8087;
@@ -337,6 +337,19 @@ input::placeholder {
 
 .nav-items {
     display: none;
+}
+
+.apartment-tag {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.cover {
+    width: 132px;
+    height: 23px;
+    background: #BDB9BA;
+    top: 157px;
+    left: 225px;
 }
 
 @media (min-height: 768px) {
@@ -654,7 +667,7 @@ input::placeholder {
         width: 1387px;
         height: 210px;
         border-radius: 16px;
-        margin-top: 220px;
+        margin-top: 420px;
     }
 
     .services-head {
@@ -742,7 +755,6 @@ input::placeholder {
         font-weight: 700;
         font-size: 60px;
         line-height: 90px;
-        /* or 150% */
         width: 1350px;
         letter-spacing: -1px;
         padding-top: 100px;
@@ -769,5 +781,37 @@ input::placeholder {
     .living-img {
        width: 82px;
        height: 78px;
+    }
+
+    #apartment {
+        margin-top: 100px;
+    }
+
+    .apart {
+        margin-left: 150px;
+        border-radius: 19px;
+    }
+
+    #info-section {
+        margin-top: 250px;
+    }
+
+    .main-tag {
+        margin-top: 0px;
+    }
+
+    .started2-img {
+        width: 100%;
+    }
+
+    #footer-two {
+        margin-left: 190px;
+    }
+
+    .cover {
+        width: 332px;
+        height: 103px;
+        margin-left: 990px;
+        margin-top: 680px;
     }
 }
