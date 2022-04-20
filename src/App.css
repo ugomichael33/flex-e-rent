@@ -67,10 +67,10 @@ body {
 
 .hero-cover {
     position: absolute;
-    width: 150px;
-    height: 36.62px;
-    left: 220.72px;
-    top: 200px;
+    width: 140px;
+    height: 26.62px;
+    margin-left: 223px;
+    margin-top: 143px;
     
     background: linear-gradient(180deg, #FFFD5F 85.78%, rgba(196, 196, 196, 0) 100%);
 }
@@ -157,6 +157,10 @@ body {
     line-height: 43px;
     text-align: center;
     color: #000000;
+}
+
+.carousel-item {
+    box-shadow: 5px 5px 5px 5px lightgray;
 }
 
 .main-button {
@@ -416,8 +420,8 @@ input::placeholder {
     .hero-cover {
         width: 790px;
         height: 126.62px;
-        top: 780px;
-        left: 965px;
+        margin-top: 755px;
+        margin-left: 1185px;
     }
 
     .main-head {
@@ -529,25 +533,24 @@ input::placeholder {
 
     #inclusive-item {
         width: 750px;
-        margin-left: -50px;
+        margin-left: 0px;
         margin-top: 0px;
         font-size: 70px;
     }
 
     #inclusive-section {
-        margin-left: -50px;
+        margin-left: 0px;
         margin-top: 150px;
         width: 750px;
         font-weight: 400;
         font-size: 22px;
         line-height: 36px;
-        /* or 200% */
-        
         letter-spacing: -1px;
     }
 
+
     #inclusive-button {
-        margin-left: -50px;
+        margin-left: 0px;
         margin-top: 80px;
     }
 
@@ -561,7 +564,7 @@ input::placeholder {
     }
 
     .inclusive-image {
-        width: 700px;
+        width: 750px;
         height: 900px; 
         margin-left: 150px;
     }
@@ -586,10 +589,10 @@ input::placeholder {
     
 
     .hero-cover2 {
-        width: 230px;
+        width: 240px;
         height: 100px;
-        margin-left: 400px;
-        top: 550px;
+        margin-left: 440px;
+        margin-top: 310px;
     }
 
     .section {
@@ -670,6 +673,10 @@ input::placeholder {
         margin-top: 420px;
     }
 
+    #started-ended {
+        margin-top: 230px;
+    }
+
     .services-head {
         font-style: normal;
         font-weight: 700;
@@ -741,7 +748,7 @@ input::placeholder {
         width: 288px;
         height: 60px;
         text-align: center;
-        margin-left: 45%;
+        margin-left: 42%;
         margin-top: 80px;
     }
 
@@ -758,6 +765,7 @@ input::placeholder {
         width: 1350px;
         letter-spacing: -1px;
         padding-top: 100px;
+        margin-left: 200px;
     }
 
     .footer-button {
@@ -787,6 +795,16 @@ input::placeholder {
         margin-top: 100px;
     }
 
+    .apartment-tag {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #000000;
+        margin-top: 40px;
+    }
+
     .apart {
         margin-left: 150px;
         border-radius: 19px;
@@ -813,5 +831,10 @@ input::placeholder {
         height: 103px;
         margin-left: 990px;
         margin-top: 680px;
+    }
+
+    .carousel-item {
+        width: 300px;
+        height: 250px;
     }
 }

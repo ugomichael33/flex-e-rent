@@ -1,0 +1,63 @@
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.carousel {
+    position: relative;
+    width: 90%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#slider {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+#slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-icon.left, .slider-icon.right {
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.5;
+    box-shadow: 5px 5px 5px 5px lightgray;
+}
+
+.slider-icon.left {
+    left: 0;
+}
+
+.slider-icon.right {
+    right: 0;
+}
+
+.slider-icon.left:hover,.slider-icon.right:hover {
+    opacity: 1;
+}
+
+.slider-card {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -18px;
+}
+
+
+@media (min-height: 768px) {
+    .slider-card {
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-top: -18px;
+    }
+}

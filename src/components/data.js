@@ -27,7 +27,7 @@ export const dataDetails = [
     {
         img: carousel2,
         title: 'Suitable and flexible rental duration',
-        content: 'Save money and satisfy your deposit requirement by replacing your expensive security deposit with Flex-E-Deposit low-cost alternative and be ready to move in.'
+        content: 'Find fully furnished spaces suited to the duration of your stay; a few nights, or a few months.'
     }
 
 ]

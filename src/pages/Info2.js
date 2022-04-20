@@ -1,5 +1,7 @@
 import React from 'react'
 import CarouselSlide from '../components/Carousel'
+import Carousel2 from './Carousel2'
+import CarouselItems2 from './CarouselItems2'
 
 function Info2() {
   return (
@@ -10,7 +12,7 @@ function Info2() {
             </h2>
             <h5 className='minor ml-5 w-72 mt-14' id='info-section'>Flex+E+Rent offers an exciting opportunity for owners looking to maximize their rental income while attracting desirable and vetted tenant.</h5>
         </div>
-        <CarouselSlide />
+        <Carousel2 />
         <div className='main-access mx-auto w-80 h-20 bg-[#FFFD5F] mt-8 rounded-2xl lg:mt-32 w-full'>
           <div className='relative'>
             <p className='main-tag '>Looking to rent out your unfurnished property?</p>

@@ -1,13 +1,12 @@
 import React from 'react'
-import { dataDetails } from './data'
-import CarouselItem from './CarouselItem'
+import { dataDetails2 } from './carouselData'
+import CarouselItems2 from './CarouselItems2'
 import { MdOutlineChevronLeft, MdOutlineChevronRight } from 'react-icons/md'
-import './carousel.css'
+import './carousel2.css'
 
+function Carousel2() {
 
-function CarouselSlide() { 
-
-  const slideLeft = () => {
+    const slideLeft = () => {
     let slider = document.getElementById('slider')
     slider.scrollLeft = slider.scrollLeft + 300
   }
@@ -18,15 +17,15 @@ function CarouselSlide() {
   }
 
   return (
-    <div className='carousel-container'>
+   <div className='carousel-container'>
       <div className='carousel'>
         <MdOutlineChevronLeft size={40} className='slider-icon left' onClick={()=>slideLeft()}/>
           <div id='slider'>
               {
-                  dataDetails.map((carouselItem, index) => {
+                  dataDetails2.map((carouselItem, index) => {
                       return (
                         <div className='slider-card'>
-                          <CarouselItem carouselItem={carouselItem} key={index}/>
+                          <CarouselItems2 carouselItem={carouselItem} key={index}/>
                         </div>
                       )
                   })
@@ -38,4 +37,4 @@ function CarouselSlide() {
   )
 }
 
-export default CarouselSlide
+export default Carousel2

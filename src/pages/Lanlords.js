@@ -1,5 +1,5 @@
 import React from 'react'
-import Started2 from '../pages/Started2'
+import Started2 from './Started2'
 import Access2 from './Access2'
 import Apartments from './Apartments'
 import Footer2 from './Footer2'
@@ -7,7 +7,7 @@ import HomePage from './HomePage'
 import Info2 from './Info2'
 import Living2 from './Living2'
 
-function Second() {
+function Lanlords() {
   return (
     <div>
         <HomePage />
@@ -21,4 +21,4 @@ function Second() {
   )
 }
 
-export default Second
+export default Lanlords

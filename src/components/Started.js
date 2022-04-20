@@ -25,7 +25,7 @@ function Started() {
                   <p className='pink-section ml-6 mt-4'>Make payment and prepare to move into your new home</p>
                 </div>
             </div>
-            <div className='started-end mx-auto w-80 h-20 bg-[#FFFD5F] mt-8 rounded-2xl'>
+            <div className='started-end mx-auto w-80 h-20 bg-[#FFFD5F] mt-8 rounded-2xl' id='started-ended'>
                 <div className='relative'>
                   <p className='main-tag text' id='tag'>Let Us Help You Save Money + Save Time + Stay Flexible</p>
                   <button className='main-button w-32 h-8 bg-[#000000] absolute mx-auto' id='button'>Get early access</button>
