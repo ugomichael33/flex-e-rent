@@ -11,17 +11,17 @@ function Started() {
             <div className='started-grid grid grid-cols-2 gap-3 lg:grid-cols-3'>
                 <div className=''>
                   <img className='w-16 h-16 ml-4 lg:w-[100px] lg:h-[100px] lg:mb-10' src={engine} alt='' />
-                  <h6 className='title ml-6'>Find your home</h6>
+                  <h6 className='title ml-6 mt-3'>Find your home</h6>
                   <p className='pink-section ml-6 mt-4'>Browse our bouquet of homes and choose your favorite space. See inside. Take a 3D digital tour. All without leaving your couch.</p>
                 </div>
                 <div>
                   <img className='w-16 h-16 ml-4 lg:w-[100px] lg:h-[100px] lg:mb-10' src={cushion} alt='' />
-                  <h6 className='title ml-2'>Book a space</h6>
+                  <h6 className='title ml-2 mt-3'>Book a space</h6>
                   <p className='pink-section ml-2 mt-4'>Look through our available options and make your preferred selection.</p>
                 </div>
                 <div>
                   <img className='w-16 h-16 ml-4 lg:w-[100px] lg:h-[100px] lg:mb-10' src={trolley} alt='' />
-                  <h6 className='title ml-6'>Pay and move-in</h6>
+                  <h6 className='title ml-6 mt-3'>Pay and move-in</h6>
                   <p className='pink-section ml-6 mt-4'>Make payment and prepare to move into your new home</p>
                 </div>
             </div>

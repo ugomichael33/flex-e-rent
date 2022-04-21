@@ -71,7 +71,6 @@ body {
     height: 26.62px;
     margin-left: 223px;
     margin-top: 143px;
-    
     background: linear-gradient(180deg, #FFFD5F 85.78%, rgba(196, 196, 196, 0) 100%);
 }
 
@@ -242,7 +241,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 4px;
+    line-height: 14px;
     color: #1D293F;
 }
 
@@ -356,7 +355,7 @@ input::placeholder {
     left: 225px;
 }
 
-@media (min-height: 768px) {
+@media (min-width: 768px) {
     .nav-bar {
         height: 116px;
     }
@@ -380,7 +379,6 @@ input::placeholder {
     .nav-items {
         display: inline-block;
         height: 20px;
-        
         font-family: Circular Std;
         font-style: normal;
         font-weight: 400;
@@ -418,10 +416,10 @@ input::placeholder {
     }
 
     .hero-cover {
-        width: 790px;
+        width: 855px;
         height: 126.62px;
-        margin-top: 755px;
-        margin-left: 1185px;
+        margin-top: 810px;
+        margin-left: 1250px;
     }
 
     .main-head {
@@ -657,6 +655,7 @@ input::placeholder {
         font-weight: 700;
         font-size: 24px;
         line-height: 34px;
+        
     }
 
     .pink-section {
@@ -789,6 +788,20 @@ input::placeholder {
     .living-img {
        width: 82px;
        height: 78px;
+    }
+
+    #living-image {
+        width: 42px;
+        margin-left: 40px;
+    }
+
+    #estate-img {
+        width: 42px;
+       
+    }
+
+    #amenities-img {
+        width: 52px;
     }
 
     #apartment {

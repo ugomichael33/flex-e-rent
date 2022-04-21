@@ -19,7 +19,7 @@ function Living() {
                 </p>
                 <div className='grid grid-cols-2 gap-2 lg:ml-[200px] lg:mt-32 lg:grid-cols-4'>
                     <div className='living flex items-center'> 
-                        <div><img className='living-img w-[20px] h-[30px] mt-10 ml-4 -mr-3' src={power} /></div>
+                        <div><img className='living-img w-[20px] h-[30px] mt-10 ml-4 -mr-3' id='living-image' src={power} /></div>
                         <div>
                             <h5 className='services-head ml-5 mt-6'>Power Supply</h5>
                             <h6 className='services-title ml-5 w-30'>Minimum of 12 hours</h6>
@@ -45,7 +45,7 @@ function Living() {
                     </div>
                     <div>
                         <div className='living flex items-center'>
-                            <div><img className='living-img w-[20px] h-[30px] mt-8 ml-2 ' src={dues} /></div>
+                            <div><img className='living-img w-[20px] h-[30px] mt-8 ml-2 ' id='estate-img' src={dues} /></div>
                             <div>
                                 <h5 className='services-head mt-4 ml-4' >Estate Dues</h5>
                                 <h6 className='services-title  w-30 ml-4'>Included in subscription</h6>
@@ -81,7 +81,7 @@ function Living() {
                     </div>
                     <div>
                         <div className='living flex items-center mt-5'>
-                            <div><img className='living-img lg:mt-4' src={amenities} /></div>
+                            <div><img className='living-img lg:mt-4' id='amenities-img' src={amenities} /></div>
                             <div>
                                 <h5 className='services-head ml-2 lg:ml-5' >Amenities</h5>
                                 <h6 className='services-title ml-2 lg:ml-5'>Included in subscription</h6>

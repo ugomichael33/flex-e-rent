@@ -24,7 +24,7 @@ function Started2() {
                 </div>
                 <div>
                   <img className='w-16 h-16 ml-4 lg:w-[100px] lg:h-[100px] lg:mb-10' src={cushion} alt='' />
-                  <h6 className='title ml-6 mt-3'>We design & furnish your space</h6>
+                  <h6 className='title ml-6 mt-3 '>We design & furnish your space</h6>
                   <p className='pink-section ml-6 mt-4'>Our design team equips your unit with premium furniture, equipment, and accessories needed to make your property a perfect fit for our highly-screened residents.</p>
                 </div>
                 <div>
@@ -41,7 +41,7 @@ function Started2() {
             </div>
             <div className='mt-10 w-full relative'>
               <div className='cover absolute'></div>
-              <img className='started2-img lg:mt-40' src={second} alt='' />
+              <img className='started2-img mb-10 lg:mt-40' src={second} alt='' />
             </div>
           </div>
           
